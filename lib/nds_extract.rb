@@ -111,7 +111,7 @@ def movies_with_directors_set(source)
     info_hash = source[i]
     directors_name = info_hash[:name]
     directors_movies = info_hash[:movies]
-    
+    a_o_a_movies_by_dir.push(movies_with_director_key(directors_name, directors_movies))
 
 
 
