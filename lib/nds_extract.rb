@@ -109,7 +109,7 @@ def movies_with_directors_set(source)
 
   while i < source.length do
     info_hash = source[i]
-    directors_name = info_hash[i]
+    directors_name = info_hash[:name]
 
 
 
